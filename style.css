@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@media (min-width: 1440px) {
+  .main-div {
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 8px;
+    width: 1440px;
+    height: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 334px;
+    height: auto;
+    gap: 10px;
+    min-height: 522px;
+    padding: 24px 24px 24px 24px;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .name-text {
+    color: white;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .region-text {
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter";
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .quote-text {
+    color: white;
+    font-family: "Inter";
+    font-size: small;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .button{
+    width: 300px;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 20%)
+  }
+}
