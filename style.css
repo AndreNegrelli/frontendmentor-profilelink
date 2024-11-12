@@ -18,7 +18,7 @@
     width: 334px;
     height: auto;
     gap: 10px;
-    min-height: 522px;
+    min-height: 422px;
     padding: 24px 24px 24px 24px;
     align-items: center;
     background-color: hsl(0, 0%, 12%);
@@ -71,6 +71,13 @@
     border: none;
     height: 40px;
     border-radius: 10px;
-    background-color:  hsl(0, 0%, 20%)
+    color: white;
+    font-family: "Inter";
+    background-color:  hsl(0, 0%, 20%);
+    cursor: pointer;
+  }
+
+  .button:hover {
+    opacity: 80%;
   }
 }
